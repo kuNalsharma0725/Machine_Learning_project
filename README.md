@@ -77,10 +77,19 @@ model and preprocessing used in your notebook.
 ## Results
 
 -   Accuracy: 0.7069
--   Precision
--   Recall
--   F1-score
--   Confusion matrix
+-   ROC-AUC Score: 0.7011
+-   Confusion Matrix:
+
+                             [[103 19]
+                              [32 20]] 
+  
+
+Classification Report:
+               
+                          precision    recall  f1-score   support
+
+                  0       0.76      0.84      0.80       122
+                  1       0.51      0.38      0.44        52
 
 
 
